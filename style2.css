@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+
+    background: #333;
+}
+.navbar> h2{
+    font-size: 22px;
+    color: #fff;
+    width: 20%;
+
+    float: left;
+}
+.navbar> ul{
+    list-style: none;
+    width: 80%;
+   
+    float: left;
+}
+
+.navbar> ul li{
+    display: inline-block;
+    width: 100px;
+}
+.navbar >ul li a{
+    color: #e18e8e;
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+}
+.navbar > ul li  {
+    position: relative;
+}
+.navbar > ul li ul {
+    position: absolute;
+    display: none;
+}
+.clear{
+    clear: both;
+}
+.navbar >ul li a:hover+ul{
+    display: block;
+
+}
+form input ,form select{
+    display: block;
+    width: 100%;
+    
+}
+form input:focus{
+    background: red;
+    border: 2px solid blue;
+}
+.ulitem{
+    padding: 20px;
+    list-style: none;
+}
+
+.ulitem li::before{
+    content: "";
+    display: inline-block;
+    width:5px;
+    height: 5px;
+    background: red;
+    vertical-align: middle;
+    margin-right: 10px ;
+}
+.parent{
+    font-size: 5px;
+}
+.child{
+    margin: 2rem;
+}
+html{
+    font-size: 16px;
+}

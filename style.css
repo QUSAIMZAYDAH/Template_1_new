@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+height: 50px;
+    background: #333;
+}
+.navbar h2{
+    font-size: 22px;
+    color: #fff;
+    width: 20%;
+    float: left;
+    align-items: center;
+
+}
+.navbar ul{
+    list-style: none;
+    width: 80%;
+    float: left;
+    
+}
+
+.clear{
+    clear: both;
+}
+.navbar ul li {
+    display: inline-block;
+    width: 70px;
+
+}
+.navbar ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    
+}
+select{
+    background: transparent;
+    color: white;
+    border: none;
+}
+h3{
+    font-size: 30px ;
+    margin: 27px 0px 0 510px
+}
+hr{
+    width: 30px;
+    margin-left: 594px;
+    border: 2px solid blue;
+} 
+.one{
+
+    text-align: center;
+    margin-top: 12px;
+    }
+    .dd{
+       
+        margin-left: 111px;
+    
+    }
+    .app{
+        height: 150px;
+        width: 285px;
+        margin: 85px 18px;
+        display: inline-block;
+        border: 1.5px solid rgba(0, 0, 0, 0.10)
+        
+        
+    }
+    .app :hover{
+
+        opacity: 0.7;
+    }
+    .mark{
+        height: 150px;
+        width: 285px;
+        margin: -6px 18px;
+        display: inline-block;
+        border: 1.5px solid rgba(0, 0, 0, 0.10)
+        
+    } 
+    .mark :hover{
+
+        opacity: 0.7;
+    }
+    .aa,.aaa{
+        display: inline-block;
+    }
+    img{
+        margin-bottom: 43px;
+    }
+    .aaa{
+        margin-top: 25px;
+    }
